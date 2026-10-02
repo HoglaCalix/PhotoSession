@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PhotoSession912.API/PhotoSession912.API.csproj" />
+  <Project Path="PhotoSession912.Application/PhotoSession912.Application.csproj" />
+  <Project Path="PhotoSession912.Domain/PhotoSession912.Domain.csproj" />
+  <Project Path="PhotoSession912.Infrastructure/PhotoSession912.Infrastructure.csproj" />
+</Solution>

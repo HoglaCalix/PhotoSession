@@ -1,0 +1,4 @@
+using FluentValidation;
+using Mircosoft.Extensions.DependencyInjection;
+
+namespace PhotoSession912.Application
