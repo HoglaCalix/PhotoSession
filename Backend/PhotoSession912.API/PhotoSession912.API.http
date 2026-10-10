@@ -1,0 +1,26 @@
+### 1. Obtener todas las sessions (Prueba del verbo GET)
+# Nota: Cambia el puerto 5000 por el puerto real que te arroje la terminal
+GET http://localhost:5000/api/Sessions
+Accept: application/json
+
+### 2. Crear una nueva Session (Prueba del verbo POST)
+POST http://localhost:5000/api/Sessions 
+Content-Type: application/json
+
+{
+    "nombre":"Noche Estrellada"
+}
+
+### 3. Obtener una sesion por su Id (Prueba del verbo GET)
+GET http://localhost:5000/api/Sessions/1
+
+### 4. Actualizar un elemento por su id (Prueba del verbo PUT)
+PUT http://localhost:5000/api/Sessions/1
+Content-Type: application/json
+
+{
+  "nombre": "Sistemas Expertos"
+}
+
+### 5. Eliminar un elemento por su id (Prueba del verbo DELETE)
+DELETE http://localhost:5000/api/Sessions/1 
