@@ -114,3 +114,5 @@ web_modules/
 .eslintcache
 .stylelintcache
 .yarn-integrity
+
+.continue/
